@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <div class="whole">
+      <div id="display">0</div>
+
+      <br />
+      <div class="calculator">
+        <div class="container-numeric">
+          <div class="row-1">
+            <button onclick="clearDisplay()" class="size-btn">AC</button>
+            <!-- <button onclick="appendOperator('/')">/</button> -->
+          </div>
+          <div class="row-2">
+            <button onclick="appendToDisplay('7')" class="size-increased">
+              7
+            </button>
+            <button onclick="appendToDisplay('8')" class="size-increased">
+              8
+            </button>
+            <button onclick="appendToDisplay('9')" class="size-increased">
+              9
+            </button>
+          </div>
+          <div class="row-3">
+            <button onclick="appendToDisplay('4')" class="size-increased">
+              4
+            </button>
+            <button onclick="appendToDisplay('5')" class="size-increased">
+              5
+            </button>
+            <button onclick="appendToDisplay('6')" class="size-increased">
+              6
+            </button>
+          </div>
+          <div class="row-4">
+            <button onclick="appendToDisplay('1')" class="size-increased">
+              1
+            </button>
+            <button onclick="appendToDisplay('2')" class="size-increased">
+              2
+            </button>
+            <button onclick="appendToDisplay('3')" class="size-increased">
+              3
+            </button>
+          </div>
+          <div class="row-5">
+            <button onclick="appendToDisplay('0')" class="zero-btn">0</button>
+          </div>
+        </div>
+        <!-- end of the container -->
+        <div class="container-arithmetic">
+          <button onclick="appendOperator('/')" class="function-math">/</button>
+          <button onclick="appendOperator('*')" class="function-math">*</button>
+          <button onclick="appendOperator('-')" class="function-math">-</button>
+          <button onclick="appendOperator('+')" class="function-math">+</button>
+          <button onclick="calculate()" class="function-math">=</button>
+        </div>
+        <!-- end of the conatiner arithmetic -->
+      </div>
+      <!-- end of the calculator -->
+    </div>
+    <!-- end of the whole calculator -->
+  </body>
+</html>

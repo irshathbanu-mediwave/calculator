@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  text-align: center;
+}
+.whole {
+  margin: auto;
+  border: 5px solid;
+  margin-top: 20px;
+  width: fit-content;
+  height: fit-content;
+  padding: 10px;
+  border-radius: 10px;
+}
+#display {
+  width: 300px;
+  height: 50px;
+  font-size: 40px;
+  text-align: left;
+  border: none;
+  background-color: black;
+  color: white;
+}
+.calculator {
+  display: flex;
+  width: auto;
+  height: 300px;
+}
+
+.size-btn {
+  width: 310px;
+  height: 50px;
+  font-size: 40px;
+  color: white;
+  background-color: black;
+  border: none;
+}
+.zero-btn {
+  width: 310px;
+  height: 50px;
+  font-size: 40px;
+  color: white;
+  background-color: #6b6362;
+}
+
+.size-increased {
+  width: 100px;
+  height: 50px;
+  font-size: 40px;
+  color: white;
+  border: none;
+  background-color: #6b6362;
+}
+.container-numeric {
+  display: grid;
+  gap: 0px;
+  grid-template-columns: 1fr;
+  margin-right: 2px;
+  border-radius: 20px;
+}
+.container-arithmetic {
+  display: grid;
+  gap: 0px;
+}
+.function-math {
+  width: 50px;
+  height: 50px;
+  border: none;
+  font-size: 40px;
+  color: white;
+  background-color: #ff8c00;
+}
+/* .row-5 {
+  border-top: 1px solid white;
+  border-bottom: 1px solid white;
+}
+.row-4 {
+  border-top: 1px solid white;
+}
+.row-3 {
+  border-top: 1px solid white;
+}
+.row-2 {
+  border-top: 1px solid white;
+}
+.row-1 {
+  border-top: 1px solid white;
+} */
